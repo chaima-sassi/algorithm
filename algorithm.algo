@@ -1,0 +1,24 @@
+ALGORITHM algorithm_checkpoint
+VAR
+ str="azerty htrjyt kjtyt."
+   vw = e,o,a,i = CHAR
+   nbre-v=0=  INTEGER
+    espace =" "= CHAR
+  point="."=CHAR
+  nb-ch := INTEGER
+  nombre-word:= 1: INTEGER 
+BEGIN
+   FOR i FROM 0  TO i < str.length STEP 1  DO
+      nb-ch:= i 
+      
+   IF (str[i]<>point) THEN
+   
+         IF (str[i]==espace) THEN
+            nombre-word += 1
+  ELSE IF (str[i]== vw) THEN
+        nbre-v+=nbre-v+1
+   END_IF
+   END_IF
+    END_FOR
+
+END
